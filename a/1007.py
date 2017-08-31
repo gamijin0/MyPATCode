@@ -19,5 +19,7 @@ if (__name__ == "__main__"):
         tempsum += i
         if (tempsum < 0):
             tempsum = 0
-
-    print maxsum, maxf, maxl
+    if(maxsum>=0):
+        print maxsum, maxf, maxl
+    else:
+        print 0,num[0],num[-1]
