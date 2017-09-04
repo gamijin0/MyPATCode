@@ -34,9 +34,10 @@ if(__name__=="__main__"):
     radix = int(radix)
     if(flag==2):
         b,a=a,b
-
+    else:
+        pass
     a = ToDec(a,radix)
-
+    
     if(len(b)==1):
         f = False
         r = 0
